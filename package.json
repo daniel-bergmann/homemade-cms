@@ -1,0 +1,19 @@
+{
+  "name": "homemade-cms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/daniel-bergmann/homemade-cms.git",
+  "author": "Daniel Bergmann <dba222@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
